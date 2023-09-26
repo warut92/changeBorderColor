@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Color Border Changer",
+  "version": "1.0",
+  "description": "Change color border of web pages",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
